@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Marshall Shen
+email:       shen.marshall@gmail.com
+author:      Marshall Shen
+description: "Personal Website of Marshall Shen"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "http://getconway.com"
 
 # Google analytics
 google_analytics:
