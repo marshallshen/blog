@@ -14,6 +14,7 @@ categories: blog
 Inside [XRay research team at Columbia University](http://xray.cs.columbia.edu/), we are motivated to be a public watcher of technology companies, expose their ways of using our personal data, and educate the general public. One interesting data privacy problem concerns user's activity across the web.
 
 Say you recently bought a pair of Nike shoes on Amazon, two days later you log into Facebook. Automagically, the ads about workouts show up alongside your newsfeed.
+
 From being shocked and furious to accustomized and indifferent, we all know our "tech brothers" are watching us, but __how__?
 
 Exposure of data track from the outside is challenging, and we conducted multiple experiments and discovered some interesting findings. This blogpost walks through one of our major experiment design, together with some primitive findings.
