@@ -27,13 +27,13 @@ To conduct a scientific experiment, we need to address the following challenges:
 
 All three questions provide critical functions throughout the process. The next section discuss how we address each of these questions.
 
-### Step 1: Ask the Right Question
+### Ask the Right Question
   Our online personal information has been increasingly exploited, but users have little knowledge on how their data is used.
   Our research investigate on Google on how it uses user data, specifically, we attempt to address the following:
 
   > Does Google use user data within services to target outside services? If so, how?
 
-### Step 2: From Question to Experiment
+### From Question to Experiment
   The compound question came with few concepts - **data within services** is any set of data collected from Google services, such as Gmail accounts, Youtube searchs, etc; **outside services** are websites that are not supervised by Google, such as Wall Street Journal, the Economist, etc.
 
   Two questions can be asked: first, can we find any evidence that what users do within Google service affects what users see on outside services; second, can we find a flow that shows the effect.
@@ -68,7 +68,7 @@ All three questions provide critical functions throughout the process. The next 
   And profile sees an ad O1 (from WSJ on "Wolf of Wall Street")
   Then a hypothesis is I1 causes O1 shown
 
-### Step 3: Capture signals and noise
+### Capture signals and noise
 
 One interesting finding is that **activities on Google services are recorded**. Inside Google Account settings, there are [places that related to content targeting](www.google.com/settings/ads). Inside the ad setting, we see that Google tracks our interest based on our web activities.
 ![Google Ad settings](/images/cross_service_data_privacy.png)
