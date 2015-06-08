@@ -4,7 +4,7 @@ title: Welcome!
 permalink: /about/
 ---
 
-Thanks for visiting blog of Marshall Shen! He wants to let you know that he's super excited and hope you enjoy his posts.. If you read any ;)
+Thanks for visiting the blog of Marshall Shen! He wants to let you know that he's super excited and hope you enjoy his posts.. If you read any ;)
 
 Marshall is a software engineer at Groupon. He is also a recent computer science graduate from [Columbia University](http://www.columbia.edu/).
 

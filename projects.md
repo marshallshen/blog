@@ -6,7 +6,6 @@ permalink: /projects/
 
 ### Launched
 
-***
 
 #### [Clojure Katas](http://clojurekatas.org/)
 __Description__: Learn the joy of Clojure by solving problems.
@@ -24,11 +23,10 @@ __Teck Stack__: Elastic search, Ruby, Sinatra
 
 [Project Link](http://xray.cs.columbia.edu/)
 
-***
 
 ### Developing
 
-***
+
 
 #### Notebook
 __Description__: An Empathy Dialogue System using Natural Language Processing
@@ -54,5 +52,3 @@ __Description__: Online version of "Cards Against Humanity"
 __Tech Stack__: Meteor.js
 
 [Project Link](https://github.com/MangoCard)
-
-***

@@ -12,10 +12,10 @@ Human and machine are becoming more integrated. Nowadays, most dialogue systems 
 
 ![siri_funny](/images/siri_funny.png)
 
-Can we have **real conversations** with machines? Can machine converse in a dialogue like our friends?
+Can we have **real conversations** with machines? Can machine talk to us like our friends?
 
 ### A dialogue odyssey
-One major feature of a dialogue is the nature of **turn-taking**: for example, in a dialogue between Tom and Jerry, Tom says something, then Jerry says something, and a dialogue flows by two characters take turn to contribute to current topic. As functional and fun as current dialogue system (Siri) can be, dialogue between the system and the audience are short, usually one to three turns long.
+One major feature of a dialogue is the nature of **turn-taking**: for example, in a dialogue between Tom and Jerry, Tom says something, then Jerry says something, and a dialogue flows by two characters taking turns to contribute to a topic. As functional and fun as current dialogue system (Siri) can be, dialogue between the system and the audience are short, usually one to three turns long.
 
 One major need of a human is to have **meaningful conversations**: to talk to a friend, to share thoughts, stories and feelings. Meaningful conversations are usually long, a lot more than a few turns, to build up contexts, retrieve emotions, and utlimately, make people feel heard.
 
@@ -73,7 +73,7 @@ Use **F** as Frank Poole, **D** as Dave Bowman, we can possibly model their dial
 
 ![markov example](/images/markov_example.png)
 
-We will skip some technical details on how Hidden Markov Model works (you can read more on the [wiki](http://en.wikipedia.org/wiki/Hidden_Markov_model)). In general, hidden markov model allows us to **model and optimize invisible states**, and in the context of a dialogue, there are many invisible states we can capture, such as sentiment of a given audience, nature of the context of a conversation (talking about money vs. talking about family, etc.).
+We will skip some technical details on how Hidden Markov Model works (you can read more on the [wiki](http://en.wikipedia.org/wiki/Hidden_Markov_model)). In general, hidden markov model allows us to **model and optimize invisible states**, and in the context of a dialogue, there are many invisible states we can capture, such as sentiment of given audience, nature of context of a conversation (talking about money vs. talking about family, etc.).
 
 (Sidenote: Hidden Markov Model is one of the most common model applied in computational linguistics)
 
