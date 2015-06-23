@@ -12,14 +12,14 @@ Human and machine are becoming more integrated. Nowadays, most dialogue systems 
 
 ![siri_funny](/images/siri_funny.png)
 
-Can we have **real conversations** with machines? Can machine talk to us as our friends?
+However, such dialogue systems aren't very **personal**. The major intention is to provide information to the audience (users) rather than engaging the audience in a "give-and-take" conversations. Can we have **real conversations** with machines? Can machine talk to us as our friends?
 
 ### A dialogue odyssey
-One major feature of a dialogue is the nature of **turn-taking**. For example, in a dialogue between Tom and Jerry, Tom says something, then Jerry says something, and a dialogue flows by two characters taking turns to contribute to a topic. As functional and fun as current dialogue system (Siri) can be, a dialogue between the system and the audience are short, usually one to three turns long.
+One major feature of a dialogue is the nature of **turn-taking**. For example, in a dialogue between Tom and Jerry, Tom says something, then Jerry says something based on what Tom just said, and a dialogue flows by two characters contributing to one topic. As functional and fun as current dialogue system (Siri) can be, a dialogue between the system and the audience are short, usually one to three turns long.
 
-One major need of a human is to have **meaningful conversations**: to talk to a friend, to share thoughts, stories and feelings. Meaningful conversations are usually long, a lot more than a few turns, to build up contexts, retrieve emotions, and ultimately, make people feel heard.
+One major need of a human is to have **meaningful conversations**: to talk to a friend, to share thoughts, stories and feelings. And meaningful conversations have **different characteristics than current human-machine dialogue systems**: they usually last long, with a lot more than a few turns. Each turn has fewer sentences and information. Ultimately, after a meaningful conversation, people feel heard rather than just informed.
 
-On one hand, we have built up a sophisticated machine to parse human language; on the other hand, people have the desire to engage in meaningful conversations. One interest question in building a dialogue system thus arise:
+Because of these fundamental feature differences, one interest question in building a dialogue system thus arise:
 
 > Can we build dialogue systems to engage the audience in meaningful conversations as if the audience is talking to a friend?
 
@@ -112,4 +112,3 @@ Then we count how many lines an audience engaged with the dummy system on averag
 Computational linguistic is a fascinating yet complicated subject. I write this blog post to outline the big ideas behind [a side project](https://github.com/marshallshen/notebook). Hope you find it interesting, don't hesitate to [contact me](http://mshen.me/contact/) if you have any feedback!
 
 I will also write follow-up posts as more progress made on the project, stay tuned! :)
-
