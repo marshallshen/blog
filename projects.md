@@ -1,54 +1,33 @@
 ---
-layout: page
-title: Recent Personal Projects
-permalink: /projects/
+layout: default
 ---
 
-### Launched
+<div class="home">
+  <div class="posts">
+    <div class="post">
+      <a href="http://donaldtrumpfor.us">
+        <p class="post-meta">July, 2015</p>
+        <h3 class="h2 post-title">donaldtrumpfor.us</h3>
+        <p class="post-summary">Donald Trump for 'Murica</p>
+      </a>
+    </div>
 
+    <div class="post">
+      <a href="http://www.xray-search.com">
+        <p class="post-meta">Apr, 2015</p>
+        <h3 class="h2 post-title">XRay Search</h3>
+        <p class="post-summary">An search engine for <a href="http://xray.cs.columbia.edu/">privacy research XRay</a>, aiming to find what user data is being used for online targeted advertisements</p>
+      </a>
+    </div>
 
-#### [Clojure Katas](http://clojurekatas.org/)
-__Description__: Learn the joy of Clojure by solving problems.
+    <div class="post">
+      <a href="http://clojurekatas.org">
+        <p class="post-meta">Dec, 2014</p>
+        <h3 class="h2 post-title">Clojure Katas</h3>
+        <p class="post-summary">Learn the joy of Clojure by solving problems.</p>
+      </a>
+    </div>
+  </div>
+</div>
 
-__Tech Stack__: Clojure, Leningen
-
-[Project Link](https://github.com/marshallshen/clojure-katas)
-
-***
-
-#### [XRay Search](http://www.xray-search.com/)
-__Description__: Search Engine for data privacy research XRay
-
-__Teck Stack__: Elastic search, Ruby, Sinatra
-
-[Project Link](http://xray.cs.columbia.edu/)
-
-
-### Developing
-
-
-
-#### Notebook
-__Description__: An Empathy Dialogue System using Natural Language Processing
-
-__Tech Stack__: Python, NLTK
-
-[Projct Link](https://github.com/marshallshen/notebook)
-
-[Blogpost](http://mshen.me/blog/2015/05/12/anatomy-of-empathy-dialogue-system/)
-
-***
-
-#### Instarent
-__Description__: A notifcation system that automates apartment hunting
-
-__Tech Stack__: Ruby, Sinatra
-
-***
-
-#### Mango Card
-__Description__: Online version of "Cards Against Humanity"
-
-__Tech Stack__: Meteor.js
-
-[Project Link](https://github.com/MangoCard)
+{% include footer.html %}
