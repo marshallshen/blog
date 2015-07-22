@@ -54,7 +54,7 @@ All three questions provide critical functions throughout the process. The next 
 
   Let's see how we can conduct *exploratory experiment* for *cross service targeting*, specifically, we want to test the following hypothesis:
 
-  > Google utilize `Youtube searches` to  `personalize ads` on external web sites.
+  > Google utilizes `Youtube searches` to  `personalize ads` on external web sites.
 
   In our study, start by exploratory experiments, we model experiments for hypothesis above as follows:
 
@@ -73,7 +73,7 @@ All three questions provide critical functions throughout the process. The next 
 One interesting finding is that **activities on Google services are recorded**. Inside Google Account settings, there are [places that related to content targeting](www.google.com/settings/ads). Inside the ad setting, we see that Google tracks our interest based on our web activities.
 ![Google Ad settings](/images/cross_service_data_privacy.png)
 
-As part of the experiment, we selected a few scenarios to test, and the main goal was to find any surprising signal that utilize users' personal data in an unethical way. Specifically:
+As part of the experiment, we selected a few scenarios to test, and the main goal was to find any surprising signal that users' personal data is utilized in an unethical way. Specifically:
 
   1. Experiment A: Given profile searches videos about **finance** on **Youtube**, will financial ads be more likely to be listed on the sidebar when the user does Google search?
   2. Experiment B: Given a profile searches videos about **dogs** on Google search, will dog videos be more likely to be recommended on **Youtube**?
