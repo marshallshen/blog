@@ -12,7 +12,7 @@ Being in the startup world for the past year opened my eyes. As a reflection of 
  > What we talk about when we talk about startup?
 
 ## Build for a Purpose
-"Why the startup"? is the question to address. A clear WHY motivates the company to tackle difficult challenges. A clear WHY attracts right people on the bus. A clear WHY brings loyalty from customers. 
+"Why the startup" is the question to address. A clear WHY motivates the company to tackle difficult challenges. A clear WHY attracts right people on the bus. A clear WHY brings loyalty from customers. 
 
 Looking at most successful companies in history, we realize that people are loyal to why the company exists, not just what it offers. Besides classic case study of Victory such as Apple or Facebook, my current favorite example for this is SoulCycle. As a fanatic SoulCycle supporter, the spirit of "riding as a community" attracts me to go back over and over. I bought into "what SoulCycle represents" rather than "what SoulCycle can offer" (frankly, I can ride bikes with music anywhere!). 
 
