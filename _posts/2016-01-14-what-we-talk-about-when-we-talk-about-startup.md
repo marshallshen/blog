@@ -7,7 +7,7 @@ summary:    Reflection on my recent startup life
 tags:       [startup, business]
 ---
 
-Being in the startup world for the past year opened my eyes. As a reflection of my recent experience, the blog post shares my thoughts on this important question:
+Being in the startup world for the past year opened my eyes. As a reflection of my recent experience, this blog post shares my thoughts on this important question:
 
  > What we talk about when we talk about startup?
 
