@@ -25,6 +25,7 @@ Business involves complex human activity. Business is unpredictable and fast-cha
 We know we are going to try different things, we know we are going to fail, and we know that, with a strong sense of WHY we embarked on the journey of this startup, we will rise back standing, smarter and stronger.
 
 Jeff Bezos, the CEO of Amazon, put it nicely:
+
 > When you are eighty years old, and in a quiet moment of reflection narrating for only yourself the most personal version of your life story, the telling that will be most compact and meaningful will be the series of choices you have made. In the end, we are out choices.
 
 We made a deliberate choice of venturing into the unknowns. We can perceive the inevitable highs and lows as part of our meaningful journey. In the end, life is too short for not doing something meaningful.
