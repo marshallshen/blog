@@ -1,178 +1,104 @@
-# Pixyll
+<p align="center">
+    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="http://sergiokopplin.github.io/indigo/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/indigo"><img src="https://camo.githubusercontent.com/5393485b732749b3499264168fa8af60166071e8/68747470733a2f2f7472617669732d63692e6f72672f73657267696f6b6f70706c696e2f696e6469676f2e7376673f6272616e63683d67682d7061676573" alt="Build Status" data-canonical-src="https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages" style="max-width:100%;"></a></h2>
+</p>
 
-[pixyll.com](http://www.pixyll.com)
+<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
 
-![Pixyll screenshot](https://cloud.githubusercontent.com/assets/1424573/3847467/134aa236-1e66-11e4-8421-4e8c122118dc.png)
+***
 
-Pixyll is a simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff. It's mobile _first_, fluidly responsive, and delightfully lightweight.
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside?</a></b>
+    |
+    <b><a href="README.md#setup">Setup?</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#how-to">How to</a></b>
+    |
+    <b><a href="README.md#tests">Tests</a></b>
+    |
+    <b><a href="README.md#donate">Donate</a></b>
+    |
+    <b><a href="README.md#problems">Problems</a></b>
+</p>
 
-It's pretty minimal, but leverages large type and drastic contrast to make a statement, on all devices.
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/screen-shot.png" />
+</p>
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+## What has inside?
 
-中文版 <https://github.com/ee0703/pixyll-zh-cn>.
+- [Jekyll](https://jekyllrb.com/), [Gulp](http://gulpjs.com/), [BrowserSync](https://www.browsersync.io/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
+- Tests with [Travis](https://travis-ci.org/)
+- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+- No JS. :sunglasses:
 
-## Getting Started
+## Setup
 
-If you're completely new to Jekyll, I recommend checking out the documentation at <http://jekyllrb.com> or there's a tutorial by [Smashing Magazine](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/).
+0. :star: to the project. :metal:
+1. [Install Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
+2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+3. Edit `_config.yml` with your data.
+4. `bundle install`
+5. `npm i && npm i -g gulp`
+6. `gulp`
+7. open in your browser: `http://localhost:3000`
 
-### Installing Jekyll
+## Settings
 
-If you don't have Jekyll already installed, you will need to go ahead and do that.
-
-```
-$ gem install jekyll
-```
-
-#### Verify your Jekyll version
-
-It's important to also check your version of Jekyll since this project uses Native Sass which
-is [only supported by 2.0+](http://jekyllrb.com/news/2014/05/06/jekyll-turns-2-0-0/).
-
-```
-$ jekyll -v
-# This should be jekyll 2.0.0 or later
-```
-
-### Fork, then clone
-
-Fork the repo, and then clone it so you've got the code locally.
-
-### Modify the _config.yml
-
-The `_config.yml` located in the root of the Pixyll directory contains all of the configuration details
-for the Jekyll site. The defaults are:
-
-```yml
-# Site settings
-title: Pixyll
-email: your_email@example.com
-author: John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl: ""
-url: "http://pixyll.com"
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-paginate: 3
-```
-
-### Jekyll Serve
-
-Then, start the Jekyll Server. I always like to give the `--watch` option so it updates the generated HTML when I make changes.
+You must fill some informations on `_config.yml` to customize your site.
 
 ```
-$ jekyll serve --watch
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+picture: 'assets/images/profile.jpg'
+...
+
+and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
 ```
 
-Now you can navigate to `localhost:4000` in your browser to see the site.
+## How to:
 
-### Using Github Pages
+- Article: How to Install Jekyll - by [Arti Annaswamy](https://github.com/aannasw). [Part 1](http://artiannaswamy.com/build-a-github-blog-part-1) and [Part 2](http://artiannaswamy.com/build-a-github-blog-part-2)
+- [Emojis in the projects list?](https://github.com/sergiokopplin/indigo/issues/72)
+- [Nokogiri dependencie problems?](https://github.com/sergiokopplin/indigo/issues/81)
+- [Syncing a Fork](https://help.github.com/articles/syncing-a-fork/)
+- [Tests with Travis CI - Tutorial](http://www.raywenderlich.com/109418/travis-ci-tutorial)
+- [Why Sass?](https://github.com/sergiokopplin/indigo/issues/117)
 
-You can host your Jekyll site for free with Github Pages. [Click here](https://pages.github.com/) for more information.
+#### Create posts:
 
-#### A configuration tweak if you're using a gh-pages sub-folder
-
-In addition to your github-username.github.io repo that maps to the root url, you can serve up sites by using a gh-pages branch for other repos so they're available at github-username.github.io/repo-name.
-
-This will require you to modify the `_config.yml` like so:
-
-```yml
-# Site settings
-title: Repo Name
-email: your_email@example.com
-author: John Otander
-description: "Repo description"
-baseurl: "/repo-name"
-url: "http://github-username.github.io"
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-paginate: 3
-```
-
-This will ensure that the the correct relative path is constructed for your assets and posts. Also, in order to run the project locally, you will need to specify the blank string for the baseurl: `$ jekyll serve --baseurl ''`.
-
-##### If you don't want the header to link back to the root url
-
-You will also need to tweak the header include `/{{ site.baseurl }}`:
-
-```html
-<header class="site-header px2 px-responsive">
-  <div class="mt2 wrap">
-    <div class="measure">
-      <a href="{{ site.url }}/{{ site.baseurl }}">{{ site.title }}</a>
-      <nav class="site-nav right">
-        {% include navigation.html %}
-      </nav>
-    </div>
-  </div>
-</header>
-```
-
-A relevant Jekyll Github Issue: <https://github.com/jekyll/jekyll/issues/332>
-
-### Contact Form
-
-If you'd like to keep the contact form, which uses <http://formspree.io>, you will need to update the email address.
-
-Currently, the `contact.html` has the following:
-
-```html
-<form action="http://formspree.io/johnotander@icloud.com" method="POST" class="form-stacked form-light">
-```
-
-Where it says `johnotander@icloud.com`, you will need to change that to the email that you wish to have the form data sent to. It will require you to fill the form out when you push it live for the first time so that you can confirm your email.
-
-More setup instructions and advanced options can be found at [http://formspree.io](http://formspree.io/)
-
-### Page Animation
-
-If you would like to add a [fade-in-down effect](http://daneden.github.io/animate.css/), you can add `animated: true` to your `_config.yml`.
-
-### Put in a Pixyll Plug
-
-If you want to give credit to the Pixyll theme with a link to <http://pixyll.com> or my personal website <http://johnotander.com> somewhere, that'd be awesome. No worries if you don't.
-
-### Enjoy
-
-I hope you enjoy using Pixyll. If you encounter any issues, please feel free to let me know by creating an [issue](https://github.com/johnotander/pixyll/issues). I'd love to help.
-
-## Upgrading Pixyll
-
-Pixyll is always being improved by its users, so sometimes one may need to upgrade.
-
-#### Ensure there's an upstream remote
-
-If `git remote -v` doesn't have an upstream listed, you can do the following to add it:
+You can use the `initpost.sh` to create your new posts. Just follow the command:
 
 ```
-git remote add upstream https://github.com/johnotander/pixyll.git
+./initpost.sh -c Post Title
 ```
 
-#### Pull in the latest changes
+The new file will be created at `_posts` with this format `date-title.md`.
 
-```
-git pull upstream master
-```
+## Tests
 
-There may be merge conflicts, so be sure to fix the files that git lists if they occur. That's it!
+You can test your app with:
 
-## Contributing
+```bash
+npm run test
+# or
+bundle exec htmlproof ./_site
+````
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+## Donate
 
-## Thanks to the following:
+If you liked my work, buy me a coffee <3
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Solarized](http://ethanschoonover.com/solarized)
-* [Animate.css](http://daneden.github.io/animate.css/)
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=U7B6UM6QWLG7E)
+
+## Problems?
+
+Tell me on github or open a [issue](https://github.com/sergiokopplin/indigo/issues/new).
+
+#### Inspirations:
+- [Addy Osmani](https://addyosmani.com/)
+
+---
+
+[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin

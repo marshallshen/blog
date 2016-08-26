@@ -2,8 +2,9 @@
 layout:     post
 title:      Data Privacy on Gmail Ads
 date:       2015-02-21
-summary:    How did Google use our email contents to target ads
+description:    How did Google use our email contents to target ads
 categories: blog
+blog: true
 ---
 
 ### Background

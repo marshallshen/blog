@@ -4,6 +4,7 @@ title:      Anatomy of Empathy Dialogue System
 date:       2015-05-12
 summary:    Can machines converse like our friends?
 categories: blog
+blog: true
 ---
 
 > HAL: I'm afraid. I'm afraid, Dave. Dave, my mind is going. I can feel it. I can feel it. My mind is going. There is no question about it. I can feel it. I can feel it. I can feel it. I'm afraid. Good afternoon, gentlemen. I am an HAL 9000 computer.         "2001: A Space Odyssey."

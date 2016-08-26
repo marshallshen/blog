@@ -4,6 +4,7 @@ title:      Cross Service Data Privacy
 date:       2015-03-11
 summary:    Experiment on Google usage of personal data across different web services
 categories: blog
+blog: true
 ---
 
 
