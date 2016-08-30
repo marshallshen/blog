@@ -1,9 +1,9 @@
 # main text of home
 name: Marshall Shen
-bio: Yet Another Person YAP
+bio: Enjoy every baby step of a thousand miles
 
 # twitter summary info
-description: A blog about technology and stuff related
+description:
 
 # if it's an external image, update below for true
 # better with square images
@@ -72,7 +72,7 @@ projects: false
 about: false
 blog: true
 # do you want to show the "read time" of the posts?
-read-time: true
+read-time: false
 
 # do you want to show the "tags" inside the posts?
 show-tags: true
