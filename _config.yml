@@ -31,30 +31,23 @@ disqus: mydisqus
 #facebook: myfacebook
 #twitter: mytwitter
 # google: mygoogle
-instagram: myinstagram
+instagram: marshalization
 # pinterest: mypinterest
 # linkedin: mylinkedin
 #youtube: myyoutube
-spotify: myspotify
-github: https://github.com/marshallshen
-medium: medium
+#spotify: myspotify
+github: marshallshen
+medium: marshallshen
 #soundcloud: soundcloud
 #vimeo: myvimeo
 email: shen.marshall@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
-        external-image: false
-        picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+  marshall:
+    name: Marshall Shen
+    bio: Love every baby step of a thousand miles
+    picture: assets/images/profile.jpg
+    twitter: marshallshen
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -84,7 +77,7 @@ related: true
 blog-nav-links: 
 
 # show author block at the end of a post ?
-show-author: true
+show-author: false
 
 # do you want some animations?
 animation: true

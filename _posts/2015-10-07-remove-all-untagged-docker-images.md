@@ -4,7 +4,7 @@ title:      Manage Untagged Docker Images
 date:       2015-10-03
 categories: blog
 tags:       [docker, rmi, docker-image]
-blog: true
+blog: false
 ---
 
 In this micro blogpost I am going to show you how to *remove all untagged docker images*, inspired by [a similar blogpost](http://jimhoskins.com/2013/07/27/remove-untagged-docker-images.html) by Jim Hoskins.
