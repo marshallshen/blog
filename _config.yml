@@ -1,6 +1,6 @@
 # main text of home
 name: Marshall Shen
-bio: Enjoy every baby step of a thousand miles
+bio: It’s a moo point. It’s like a cow’s opinion; it doesn’t matter. It’s moo - Joey Tribbiani
 
 # twitter summary info
 description:
@@ -8,7 +8,7 @@ description:
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile.png
 
 url: http://mshen.me
 
@@ -45,8 +45,8 @@ email: shen.marshall@gmail.com
 authors:
   marshall:
     name: Marshall Shen
-    bio: Love every baby step of a thousand miles
-    picture: assets/images/profile.jpg
+    bio: It’s a moo point. It’s like a cow’s opinion; it doesn’t matter. It’s moo - Joey Tribbiani
+    picture: assets/images/profile.png
     twitter: marshallshen
 
 # do you want a larger site? change the option below
