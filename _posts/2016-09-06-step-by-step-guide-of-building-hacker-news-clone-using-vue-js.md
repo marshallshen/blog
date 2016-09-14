@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      Build Hacker News clone using Vue.js
-summary:    A step by step guide
 date:       2016-09-06
 categories: blog
 tags: ["Vuejs", "Javascript"]
