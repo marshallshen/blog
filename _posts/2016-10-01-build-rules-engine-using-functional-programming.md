@@ -19,7 +19,7 @@ Using an over-simplified equation the represent rules engine:
 
      Data + Rules = Solution
 
-Before we discuss how to build rules engine we define how we identify a good rules engine. A good rules engine should have three business traits: **feasibility**, **adaptability**, and **measurability**.
+Before we discuss how to build rules engine we define how we identify a good rules engine. A good rules engine should have three business traits: **feasibility**, **extensibility**, and **measurability**.
 
 **Feasibility.** Given a set of rules and a data set, a rules engine should be able to produce a feasible solution. Same inputs can always reproduce the same output.
 
