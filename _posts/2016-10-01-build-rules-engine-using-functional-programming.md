@@ -63,7 +63,7 @@ We can divide the playlist programming problem into three smaller steps: select,
 | Sorter      | Generate a playlist based on the selected videos and sorting rules  |
 | Validator   |             Measure how good the generated playlist is              |
 
-Below is a visual overview of how the objects interact with the process:
+Below is a visual overview of how the objects interact in the process:
 
 ![oo_rules_engine.png](/images/oo_rules_engine.png)
 
@@ -81,7 +81,7 @@ Regarding measurability, we can write integration tests to verify the correctnes
 
 Using Functional Programming paradigm, the playlist programming can be divided into a set of small functions. All steps take a data hash as its inputs and outputs a data hash with the same structure. Each step appends its key-pair inside the hash, and it passes on the hash to next step.
 
-Below is a visual overview of how the objects interact with the process:
+Below is a visual overview of how the functions interact in the process:
 
 ![functional_rules_engine.png](/images/functional_rules_engine.png)
 
