@@ -9,7 +9,7 @@ blog: true
 
 ## What is rules engine
 
-Rules engine is a common type of software for business. In Wikipedia, the definition is the following:
+Rules engine is a common type of software for business. In Wikipedia, the [definition](https://en.wikipedia.org/wiki/Business_rules_engine) is:
 
   > A business rules engine is a software system that executes one or more business rules in a runtime production environment... 
   >  
