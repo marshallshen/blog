@@ -90,7 +90,9 @@ Our code might look like the following:
 {% gist 9f093c3b3b0a24dc3df69adcbab26c6a rules_engine.rb %}
 {% gist 9f093c3b3b0a24dc3df69adcbab26c6a youtube.rb %}
 
-Several benefits stand out using this approach. The rules engine becomes more adaptable to business change. Because no function depends on other function, we can easily swap in and out new functions as long as that function understands the input and provides expected output. Additionally, writing tests for individual function becomes easier because we can verify given certain inputs, the function computes an expected output. Lastly, regarding development, function pipeline gave developers the flexibility to adjust algorithms, many times we overcome a technical difficulty by adding a new function to the pipeline.
+Several benefits stand out using this approach. The rules engine becomes more adaptable to business change. Because no function depends on other function, we can easily swap in and out new functions as long as that function understands the input and provides expected output. 
+
+Additionally, writing tests for individual function becomes easier because we can verify given certain inputs, the function computes an expected output. Lastly, regarding development, function pipeline gave developers the flexibility to adjust algorithms, many times we overcome a technical difficulty by adding a new function to the pipeline.
 
 ## Conclusion
 
