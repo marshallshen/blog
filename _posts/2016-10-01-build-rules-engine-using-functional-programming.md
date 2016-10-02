@@ -15,7 +15,7 @@ Rules engine is a common type of software for business. In Wikipedia, the [defin
   >  
   > Rule engines typically support rules, facts, priority (score), mutual exclusion, preconditions, and other functions.
 
-Using an over-simplified equation the represent rules engine:
+We can use an over-simplified equation to represent a rules engine:
 
      Data + Rules = Solution
 

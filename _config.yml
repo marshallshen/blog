@@ -1,6 +1,6 @@
 # main text of home
 name: Marshall Shen
-bio: It’s a moo point. It’s like a cow’s opinion; it doesn’t matter. It’s moo - Joey Tribbiani
+bio: Make it all up – but make it up so truly that later it will happen that way. - Hemingway
 
 # twitter summary info
 description:
@@ -45,17 +45,17 @@ email: shen.marshall@gmail.com
 authors:
   marshall:
     name: Marshall Shen
-    bio: It’s a moo point. It’s like a cow’s opinion; it doesn’t matter. It’s moo - Joey Tribbiani
+    bio: Make it all up – but make it up so truly that later it will happen that way. - Hemingway
     picture: assets/images/profile.png
     twitter: marshallshen
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you don't need pagination, comment the *paginate* configs below
-paginate: 10
+paginate: 5
 paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
