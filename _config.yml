@@ -16,6 +16,8 @@ permalink: /:title/
 
 markdown: kramdown
 highlighter: rouge
+katex:
+  path_to_js: ./assets/javascript/katex.min.js
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-83942064-1'
