@@ -1,6 +1,6 @@
 # main text of home
 name: Marshall Shen
-bio: Make it all up – but make it up so truly that later it will happen that way. - Hemingway
+bio: The world is a fine place, and worth fighting for. - Hemingway
 
 # twitter summary info
 description:
@@ -47,7 +47,7 @@ email: shen.marshall@gmail.com
 authors:
   marshall:
     name: Marshall Shen
-    bio: Make it all up – but make it up so truly that later it will happen that way. - Hemingway
+    bio: The world is a fine place, and worth fighting for. - Hemingway
     picture: assets/images/profile.png
     twitter: marshallshen
 
