@@ -1,13 +1,11 @@
 ---
 layout:     post
-title:      Cautions on Delayed Job
+title:      Cautions on delayed job in Rails app
 date:       2017-01-05
 categories: blog
 tags: ["Rails", "database"]
 blog: true
 ---
-
-# Cautions on delayed job in Rails app
 
 Delayed Job (DJ) is a database (DB) based asynchronous priority queue system. In most cases, each job is persisted as one record persisted in a relational database, which means it implements fundamental conccepts, and also inherits performant limitations of relational database.
 
@@ -46,8 +44,9 @@ This completely stabilizes my concurrency test! My theory is that **it allows th
 ## Caution 2: `UPDATE` on DJ
 
 DJ relies `UPDATE` statement to assign jobs for workers, and a sample SQL looks like below
+
 ```
-SQL (0.4ms)  UPDATE `delayed_jobs` SET `locked_at` = '2013-04-16 09:27:23', `locked_by` = 'delayed_job.=2 host:ip-10-204-210-77 pid:2168' WHERE `delayed_jobs`.`queue` IN ('queue_name') AND ((run_at <= '2013-04-16 09:27:23' AND (locked_at IS NULL OR locked_at < '2013-04-16 05:27:23') OR locked_by = 'delayed_job.=2 host:ip-10-204-210-77 pid:2168') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 1
+SQL (0.4ms)  UPDATE 'delayed_jobs' SET 'locked_at' = '2013-04-16 09:27:23', 'locked_by' = 'delayed_job.=2 host:ip-10-204-210-77 pid:2168' WHERE 'delayed_jobs'.'queue' IN ('queue_name') AND ((run_at <= '2013-04-16 09:27:23' AND (locked_at IS NULL OR locked_at < '2013-04-16 05:27:23') OR locked_by = 'delayed_job.=2 host:ip-10-204-210-77 pid:2168') AND failed_at IS NULL) ORDER BY priority ASC, run_at ASC LIMIT 1
 
 ```
 
@@ -73,7 +72,7 @@ end
 
 ## Caution 3: DJ columns
 
-* from `text` to `longtext` *
+### from `text` to `longtext`
 
 To quote from [Delayed Job best practice](https://www.sitepoint.com/delayed-jobs-best-practices/):
 
@@ -100,7 +99,8 @@ end
 
 In code, we need to be cautious about how we are throwing errors and **supporess error messages** at the application level. Meanwhile, we can modify DJ columns to `longtext` for safeguarding.
 
-* refer entity *
+### refer entity
+
 Usually, a job is created in order to handle a background task that is related to a business entity. I am using two columns to store a reference to this business entity instance (polymorphic).
 
 ```ruby
@@ -123,7 +123,6 @@ By default, `Delayed::Worker.destroy_failed_job` is set to true, which means tha
 
 ```ruby
 Delayed::Worker.destroy_failed_jobs = false
-
 ```
 
 By default, `Delayed::Worker.max_run_time` is set to `4.hours`. However, if you don’t expect to have such long running tasks, it is better to decrease that value. Doing so will kill the delayed worker when this limit is reached and allow the job to fail so another worker can pick it up. Also, you will be notified for tasks that you expected to run in short time but took longer.
@@ -189,7 +188,7 @@ dw.run(dj)
 
 Like Sidekiq, DJ has an open source web interface, [delayed_job_web](https://github.com/ejschmitt/delayed_job_web).
 
-# Reference
+## Reference
 
 * [Delayed Job best practices](https://www.sitepoint.com/delayed-jobs-best-practices/)
 * [delayed_job_web](https://github.com/ejschmitt/delayed_job_web)
