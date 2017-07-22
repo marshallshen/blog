@@ -8,9 +8,9 @@ description:
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.png
+picture: assets/images/me.jpg
 
-url: http://mshen.me
+url: http://himarsh.org
 
 permalink: /:title/
 
@@ -27,13 +27,13 @@ analytics-google: 'UA-83942064-1'
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
 #twitter: mytwitter
 # google: mygoogle
-instagram: marshalization
+instagram: himarsh
 # pinterest: mypinterest
 # linkedin: mylinkedin
 #youtube: myyoutube
