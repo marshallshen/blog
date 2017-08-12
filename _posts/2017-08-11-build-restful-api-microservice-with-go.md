@@ -1,21 +1,21 @@
 ---
 layout:     post
-title:      Build RESTful API mircoservice with Go
+title:      Build RESTful API microservice with Go
 date:       2017-08-11
 categories: blog
 tags: ["Golang", "microserivce", "API"]
 blog: true
 ---
 
-**Note** you can find the codebase for the blogpost in this [Github repo](https://github.com/marshallshen/instructions).
+**Note** you can find the codebase for the blog post in this [Github repo](https://github.com/marshallshen/instructions).
 
-We can't skip the conversation of microservices when we talk about service-oriented architecture. Growth companies face the challenge of scaling technical applications to meet business needs. The trend of microservices is also promoted along with some new technology that allow developers to build API based service faster.
+We can’t skip the conversation of microservices when we talk about service-oriented architecture. Growth companies face the challenge of scaling technical applications to meet business needs. The trend of microservices is also promoted along with some new technology that allows developers to build API based service faster.
 
 Recently I have been researching [Golang](https://golang.org/) and how to use it to build microservices. This blogpost documents my findings.
 
 ## Objective
 
-I lay out certain criteria to evaluate whether Golang is a suitable tool for buidling microservices, I deem these criteria as important guide in building a microservices, which can be further applied in evaluate other language and frameworks.
+I lay out certain criteria to evaluate whether Golang is a suitable tool for building microservices, I deem these criteria as an important guide in building a microservices, which can be further applied in evaluating other language and frameworks.
 
 * **API-readiness**. The framework **must** fully support `HTTP/HTTPs` protocol and `JSON` content type. The framework **must** provide competent middleware for instrumentation, the framework also must provide webdriver that meets minimum requirement of service-level agreement such as `requests per minute`.
 
@@ -23,11 +23,12 @@ I lay out certain criteria to evaluate whether Golang is a suitable tool for bui
 
 * **Deployability**. The framework **must** allow `Docker` deployments, the community behind the lanuage **should** have a stable Docker image that allow developers to easily deploy application to container hosts such as Amazon Elastic Container Service.
 
-* **Adaptablity**. The framework **should** be relatively easy to learn. A team of developers should be able to be productive using the framework in 2-month period. Note that 2 months is based on my prior experience of learning new technology.
+* **Adaptability**. The framework **should** be relatively easy to learn. A team of developers should be able to be productive using the framework in 2-month period. Note that 2 months is based on my prior experience of learning new technology.
 
 ## Experiment
 
-To start the experiment, I decided to build **an instruction service** using [Gin](https://github.com/gin-gonic/gin) as the Golang webserver. The instruction service is simple service that consumes and provides instructions based on RESTful API. Additionally, I choose `Gin` as the framework because the community behind the framework is [active](https://github.com/gin-gonic/gin/pulse), and comparing to other framework such as [Martini](https://github.com/go-martini/martini), the set up is light weight, the syntax is easy to understand.
+To start the experiment, I decided to build an **instruction service** using [Gin](https://github.com/gin-gonic/gin) as the Golang web server. The instruction service is simple to service that serves instructions based on RESTful API. Additionally, I choose `Gin` as the framework because the community behind the framework is [active](https://github.com/gin-gonic/gin/pulse), and comparing to other frameworks such as [Martini](https://github.com/go-martini/martini), the set up is light weight, the syntax is easy to understand.
+
 
 ### Set up webserver
 
@@ -145,7 +146,8 @@ type Instruction struct {
 
 ```
 
-Next, we need to connect the webservice with database, we choose `mysql` as the database and [mysql go-sql-driver](https://github.com/go-sql-driver/mysql) as the databaes driver. To do that, we create a `db.go` inside `app` folder because it belongs to the same package **app**.
+Next, we need to connect the web service with a database, we choose `MySQL` as the database and [MySQL go-sql-driver](https://github.com/go-sql-driver/mysql) as the database driver. To do that, we create a db.go inside app folder because it belongs to the same package **app**.
+
 
 ```go
 package app
@@ -289,7 +291,7 @@ func TestPostInstruction(t *testing.T) {
   }
 }
 ```
-Comparing to other testing framework such as [Rspec in Rails](https://github.com/rspec/rspec-rails), testing in go seems less elgant, however, the code seems less magical comparing to other dynmaic laungauge like Ruby.
+Comparing to other testing framework such as [RSpec in Rails](https://github.com/rspec/rspec-rails), testing in Golang seems less elegant. However, the code seems less magical comparing to other dynamic languages like Ruby.
 
 You can find the complete testing code [here](https://github.com/marshallshen/instructions/blob/master/main_test.go).
 
@@ -326,7 +328,7 @@ CMD     ["run", "main.go"]
 
 Based on the research, Golang and Gin seems like a great fit for building a microservice in handling a very specific task, such as serving RESTful API. The framework is API-ready, provides tools for testing and is easily deployable with Docker.
 
-Conceptually, I am confident that this framework is great at handling tasks such asweb scrapping, ETL pipeline, or media transcoding. However, I am not confident that the framework is designed for building applications that encompass complicated business logic, such as a client-facing web application. There are several aspects of framework I'd like to investigate more in the future:
+Conceptually, I am confident that this framework is great at handling tasks such as web scrapping, ETL pipeline, or media transcoding. However, I am not confident that the framework is designed for building applications that encompass complicated business logic, such as a client-facing web application. There are several aspects of a framework I’d like to investigate more in the future:
 
 * **Database migration tool**. How easy is it to track SQL schema migration within a Golang app?
 * **Multiple environment support** What is the best practice for deploying a Golang app into multiple environments with different configurations?
