@@ -9,7 +9,7 @@ blog: true
 
 For the past year I have been on the team building progressive web application (PWA) using [Vue.js](http://vuejs.org). The framework is relatively new, so there is not a standard guideline on how to properly test a large scaled Vue application.
 
-If you are building a large PWA with Vue.js as the frontend framework, I hope you find this blogpost useful. In this post I will share some of our learning lessons and pragmatical guidelines our team come up in tesing with Vue.js.
+If you are building a large PWA with Vue.js as the frontend framework, I hope you find this blog post useful. In this post I will share some of our learning lessons and pragmatical guidelines our team come up in tesing with Vue.js.
 
 ## Challenge of scaling
 
@@ -29,7 +29,7 @@ First, let's start with the bad. Regardless of which Javascript framework we use
 | Assertion | Allow various assertion inside tests| [Chai.js](http://chaijs.com/) |
 | Mocks and stubs | Stub out method calls, capture method calls and arguments, stub out ajax calls | [Sinon](http://sinonjs.org/) | 
 
-As you can see, the testing solution we come up feels piece-meal, which reflects the fragmented nature of Javascript testing framework. Within Vue.js community people have been working on Vue specific testing framework, but as of the time of this writing, the project is fairly young. 
+As you can see, the testing solution feels piece-meal, which reflects the fragmented nature of Javascript testing framework. Within Vue.js community people have been working on Vue specific testing framework, but as of the time of this writing, the project is fairly young. 
 
 A sample test inside the app looks like below, the `describe` and `it` blocks are provided by **Karma.js**. The `expect` clause is provided by **Chai.js**. Note that this piece-meal solution should also apply to other frameworks such as [Angular](https://angularjs.org/) and [React](https://facebook.github.io/react/).
 
@@ -61,7 +61,7 @@ describe("formatDates", () => {
 
 ## The Good: component tests and interaction tests
 
-Okay, let's start with the good thought. We realize that **component-based framework allows us to test our Javascript code differently**. Traditionally, we write `unit test`, `integration test` and `end to end test` around Javascript application. Although those scopes of test might still hold true while testing with Vue, we like to think that we can write two types of tests with Vue.js: **component tests** and **interaction tests**.
+Okay, let's go with the good thought. We realize that **component-based framework allows us to test our Javascript code differently**. Traditionally, we write `unit test`, `integration test` and `end to end test` around Javascript application. Although those scopes of test might still hold true while testing with Vue, we like to think that we can write two types of tests with Vue.js: **component tests** and **interaction tests**.
 
 At its core, a Vue app is composed of **components and their interactions**, and the ideas below hold true for each component:
 
