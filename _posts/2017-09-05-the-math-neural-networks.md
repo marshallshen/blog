@@ -7,11 +7,11 @@ tags: ["AI", "Machine Learning"]
 blog: true
 ---
 
-Building neural networks is at the heart of any deep learning technique. Neural networks is a series of forward and backward propagations to train paramters in the model, and it is built on the unit of logistic regression classifiers. This post will expand based on [the math of logistic regression](http://himarsh.org/the-math-of-logistic-regression/) to build more advanced neural networks, in mathematical terms.
+Building neural networks is at the heart of any deep learning technique. Neural networks is a series of forward and backward propagations to train paramters in the model, and it is built on the unit of logistic regression classifiers. This post will expand based on [the math of logistic regression](http://himarsh.org/the-math-of-logistic-regression/) to build more advanced neural networks in mathematical terms.
 
 A neural network is composed of **layers**, and there are three types of layers in a neural network: one **input layer**, one **output layer**, and one or many **hidden layers**. Each layer is built based on the same structure of logistic regression classifier, with **a linear transformation** and **an activation function**. Given a fixed set of input layer and output layer, we can build more complex neural network by adding more **hidden layers**. 
 
-Before diving into the details of the mathematical model, we need to have a big picture of the computation. To quote from [deeplearning.ai] class:
+Before diving into the details of the mathematical model, we need to have a big picture of the computation. To quote from [deeplearning.ai](https://www.deeplearning.ai/) class:
 
 > the general methodology to build a Neural Network is to:
 >
