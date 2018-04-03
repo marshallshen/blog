@@ -3,7 +3,7 @@ layout:     post
 title:      Build RESTful API microservice with Go
 date:       2017-08-11
 categories: blog
-tags: ["Golang", "microserivce", "API"]
+tags: ["golang", "microserivce", "API"]
 blog: true
 ---
 

@@ -33,13 +33,13 @@ disqus: false
 #facebook: myfacebook
 #twitter: mytwitter
 # google: mygoogle
-instagram: himarsh
+# instagram: himarsh
 # pinterest: mypinterest
 # linkedin: mylinkedin
 #youtube: myyoutube
 #spotify: myspotify
 github: marshallshen
-# medium: marshallshen
+medium: marshallshen
 soundcloud: himarsh
 #vimeo: myvimeo
 email: shen.marshall@gmail.com
@@ -76,7 +76,7 @@ show-tags: true
 related: true
 
 # show next & prev links in blog post?
-blog-nav-links: 
+blog-nav-links:
 
 # show author block at the end of a post ?
 show-author: false
