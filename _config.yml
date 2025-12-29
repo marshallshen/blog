@@ -6,20 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title:       Marshall Shen
-email:       'marshall.shen.writes@gmail.com'
-description: 'My Corner of the Internet'
-baseurl:     '' # The subpath of your site, e.g. /blog
-url:         'https://himarsh.org' # The base hostname & protocol for your site
-twitter:     'https://twitter.com/marshallshen'
-github:      'https://github.com/marshallshen'
+title: Marshall Shen
+email: "marshall.shen.writes@gmail.com"
+description: "My Corner of the Internet"
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "https://himarsh.org" # The base hostname & protocol for your site
+twitter: "https://twitter.com/marshallshen"
+github: "https://github.com/marshallshen"
 
-markdown:  kramdown
+markdown: kramdown
 permalink: pretty
-paginate:  10
+paginate: 10
 
 sass:
   style: compressed
+  load_paths:
+    - _sass
 
 plugins:
   - jekyll-paginate
@@ -36,13 +38,13 @@ exclude:
   - Gemfile.lock
 
 # Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
+tag_page_dir: tag
+tag_page_layout: tag_page
+tag_permalink_style: pretty
 
 # Pages path
 defaults:
   - scope:
-      path: '_pages'
+      path: "_pages"
     values:
       permalink: /:basename:output_ext

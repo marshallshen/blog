@@ -2,33 +2,32 @@
 // Main Style
 // *------------------------------------*/
 
+// SETTINGS (must be first)
+@import 'settings/__all';
+
 // TOOLS
-@import 'tools/_all';
-
-
-// SETTINGS
-@import 'settings/_all';
+@import 'tools/__all';
 
 
 // GENERIC
-@import 'generic/_all';
+@import 'generic/__all';
 
 
 // VENDOR
-@import 'vendor/_all';
+@import 'vendor/__all';
 
 
 // ELEMENTS
-@import 'elements/_all';
+@import 'elements/__all';
 
 
 // OBJECTS
-@import 'objects/_all';
+@import 'objects/__all';
 
 
 // Components
-@import 'components/_all';
+@import 'components/__all';
 
 
 // TRUMPS
-@import 'trumps/_all';
+@import 'trumps/__all';

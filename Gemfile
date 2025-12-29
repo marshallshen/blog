@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '2.6.2'
+ruby '3.2.0'
 
-gem 'bundler'
-gem 'jekyll', '~> 4.0'
+gem 'jekyll', '~> 4.3'
 gem 'jekyll-paginate'
 gem 'jekyll-tagging'
 gem 'jekyll-katex'
 gem 'jekyll-seo-tag'
+gem 'webrick'
