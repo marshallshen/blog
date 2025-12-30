@@ -1,40 +1,40 @@
-name: Deploy Web Artifact
-run-name: ${{ github.actor }} is deploying himarsh.org 🚀
-
+name: Deploy to GitHub Pages
+run-name: ${{ github.actor }} is deploying babystep.io 🚀
 
 on:
   push:
     branches:
       - main
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   Deploy-Website:
-    permissions:
-      contents: read
-      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          role-to-assume: arn:aws:iam::830097137869:role/himarsh-org-role
-          aws-region: us-east-1
-          role-session-name: GithubAction
+      - uses: actions/checkout@v4
+
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "2.6.2"
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-      - name: Bundle install
-        run: |
-          gem install bundler -v 2.4.22
-          bundle install
+          ruby-version: "3.2"
+          bundler-cache: true
+
       - name: Jekyll build
         run: |
           set -x
           bundle exec jekyll build --trace
-      - name: Upload files to S3
-        run: |
-          aws s3 sync _site/ s3://himarsh.org
+
+      - name: Upload artifact to GitHub Pages
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: "_site"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
