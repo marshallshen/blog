@@ -8,13 +8,13 @@ I spent years mastering algorithms, learning frameworks, writing clean code. I b
 
 I experienced something that probably most software engineers experienced: professional anxiety. Not the typical kind—worrying about a project deadline or a difficult bug. This was different. Deeper.
 
-I realized that 90% or more of what I "used to" do can now be done by AI. In most cases, better than I could do it. I asked myself: what value do I bring?
+I realized that 90% or more of what I used to do can now be done by AI. In most cases, better than I could do it. I asked myself: what value do I bring?
 
 The question haunted me. I couldn't shake it.
 
 Then I realized something: this wasn't really about job security. It wasn't about whether I could still be useful. The source of my anxiety stemmed from the fact that my old identity as a problem solver was changing to a different identity.
 
-What I was experiencing wasn't professional anxiety. It was an **identity crisis**.
+What I was experiencing wasn't professional anxiety. It was an identity crisis.
 
 Who am I if I'm not the one writing the code?
 
@@ -23,7 +23,7 @@ Who am I if I'm not the one writing the code?
 Every major abstraction in computing has changed what "engineering" means:
 
 - **Assembly → C**: We stopped managing registers, started managing memory
-- **C → Python/JavaScript**: We stopped managing memory, started managing business logic
+- **C → Python/JavaScript frameworks**: We stopped managing memory, started managing business logic
 - **Frameworks → AI agents**: We're stopping manual implementation, starting orchestration
 
 Each time, the fear is the same: *"If this gets easier, am I still valuable?"*
@@ -32,7 +32,7 @@ Each time, the answer is the same: **Yes, but differently.**
 
 But knowing this intellectually doesn't resolve the emotional reality. When your entire professional identity has been built on a skill that's being automated, the question isn't just "What do I do now?" It's "Who am I now?"
 
-## From Coder to Conductor
+## From Problem Solver to Conductor
 
 A conductor doesn't play instruments. They shape how the orchestra performs.
 
@@ -50,11 +50,9 @@ This metaphor helped me reframe my identity shift. I'm not losing my value—I'm
 - Quality evaluation (is this code secure, maintainable, correct?)
 - Architectural judgment (what should we build? how should it work?)
 
-I'm not losing technical skills. I'm trading implementation knowledge for architectural wisdom.
-
 The problems didn't disappear. They moved up the stack.
 
-## The Liberation
+## Shift Perspective
 
 Here's what shifted for me: I used to spend 80% of my time implementing and 20% thinking about what to build. Now it's reversed—20% briefing agents, 80% thinking and evaluating.
 
@@ -70,8 +68,6 @@ The grunt work—boilerplate code, CRUD endpoints, "just make it work" implement
 - What could go wrong, and how do we prevent it?
 
 These aren't coding problems. These are business problems. Engineering problems. Human problems.
-
-And honestly, isn't this what engineering has always been about?
 
 ## Where Value Lives Now
 
@@ -102,7 +98,7 @@ The work I do now requires something agents can't replicate: judgment shaped by 
 
 ## Who Are You?
 
-So who are you if AI writes the code?
+Who are you if AI writes the code?
 
 You are not a software engineer anymore. At least not in the way you used to define it.
 
@@ -112,6 +108,6 @@ Your value isn't in your ability to translate requirements into syntax. It's in 
 
 The identity shift is real. The anxiety is real. But so is the opportunity.
 
-The question isn't whether to accept this new identity. The question is how quickly you can embrace it.
+The question isn't whether to accept this new identity. The question is how you can embrace it.
 
-**Pick up the baton.**
+Pick up the baton.
