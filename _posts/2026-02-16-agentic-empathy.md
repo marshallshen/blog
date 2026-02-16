@@ -4,7 +4,7 @@ title: "Agentic Empathy"
 tags: ["essay"]
 ---
 
-I was listening to Peter Steinberger on the Lex Fridman podcast talk about OpenClaw when he mentioned something that clicked: *agentic empathy*. The idea that we need to develop empathy for how agents think—not emotional empathy, but understanding how they process and respond—so we can better direct them.
+I was listening to [Peter Steinberger on the Lex Fridman podcast](https://www.youtube.com/watch?v=YFjfBk8HI5o) talk about OpenClaw when he mentioned something that clicked: *agentic empathy*. The idea that we need to develop empathy for how agents think—not emotional empathy, but understanding how they process and respond—so we can better direct them.
 
 I've been trying to figure out how to work effectively with AI agents. The outputs vary wildly depending on how I frame instructions. Sometimes brilliant. Sometimes completely off. I realized the difference isn't the agent. It's me.
 
